@@ -29,6 +29,10 @@ public class Organizer extends AbstractEntity {
 		this.events = events;
 	}
 
+	public Long getResourceId() {
+		return this.id;
+	}
+
 	@Override
 	public boolean equals(Object obj) {
 		// TODO Auto-generated method stub

@@ -54,6 +54,10 @@ public class Participant extends AbstractEntity {
 		this.event = event;
 	}
 
+	public Long getResourceId() {
+		return this.id;
+	}
+
 	@Override
 	public boolean equals(Object obj) {
 		// TODO Auto-generated method stub

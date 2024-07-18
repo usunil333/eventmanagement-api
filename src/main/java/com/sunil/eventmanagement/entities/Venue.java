@@ -70,6 +70,10 @@ public class Venue extends AbstractEntity {
 		this.postalCode = postalCode;
 	}
 
+	public Long getResourceId() {
+		return this.id;
+	}
+
 	@Override
 	public boolean equals(Object obj) {
 		// TODO Auto-generated method stub
