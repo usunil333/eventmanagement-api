@@ -1,9 +1,9 @@
 package com.sunil.eventmanagement.repos;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 
 import com.sunil.eventmanagement.entities.Event;
 
-public interface EventRepository extends CrudRepository<Event, Long> {
+public interface EventRepository extends PagingAndSortingRepository<Event, Long> {
 
 }
